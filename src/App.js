@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
-      <Navbar/>
-    </div>
-  )
+   
+      <Router>
+        <Navbar/>
+      </Router>
+  
+  );
 }
 
 export default Home
