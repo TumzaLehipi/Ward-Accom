@@ -1,11 +1,14 @@
 import React from 'react'
 
-const index = () => {
+import {Nav}  from './styles'
+const Navbar = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Nav>
+               sdvdsvdsv 
+            </Nav>   
+        </>
     )
 }
 
-export default index
+export default Navbar
