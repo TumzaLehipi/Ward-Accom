@@ -32,7 +32,7 @@ export const NavbarContainer = styled(Container)`
 
 export const NavLogo = styled(Link)`
 
-    color  : #fff;
+    color: red;
     justify-content : flex-start;
     cursor : pointer;
     text-decoration : none;
@@ -46,5 +46,24 @@ export const NavIcon = styled(RiHomeSmileFill)`
 
     margin-right : .5rem;
     color : #fff;
+
+`;
+
+export const MobileIcon = styled.div`
+
+    display : none;
+
+
+    @media screen and (max-width : 960px){
+
+        display : block;
+        position : absolute;
+        top : .5rem;
+        right : 0;
+        transform : translate(-100%, 60%)
+        font-size : 1.8rem;
+        cursor : pointer;
+    }
+
 
 `;
