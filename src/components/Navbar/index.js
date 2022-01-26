@@ -4,6 +4,8 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 
 import {IconContext} from 'react-icons/lib';
 
+import { Container } from 'react-bootstrap';
+
 import {
     Nav, 
     NavbarContainer, 
@@ -32,6 +34,7 @@ const Navbar = () => {
                </NavbarContainer>
             </Nav>   
             </IconContext.Provider>
+
         </React.Fragment>
     );
 }
