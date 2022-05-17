@@ -1,19 +1,19 @@
 import React from 'react';
 
-import Navbar from './components/Navbar';
-
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+import Routes from './routes';
+
 import { GlobalStyle } from './styles/global';
 
-function Home() {
+function App() {
   return (
-   
       <Router>
       <GlobalStyle/>
-        <Navbar/>
+        <Routes/>
       </Router>
   
   );
 }
 
-export default Home
+export default App
